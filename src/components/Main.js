@@ -11,9 +11,9 @@ export const MainContext = React.createContext();
 
 function Main() {
 	const libraryGames = [
-		{ name: 'Speak and check', description: 'Say the word on the screen and check your spelling', img: 'https://st.kp.yandex.net/images/film_iphone/iphone360_1108577.jpg?width=180?width=90' },
-		{ name: 'Check the correct one', description: 'Say the word on the screen and check your spelling' },
-		{ name: 'Check it', description: 'See the word abc at the screen and check your word writing' }
+		{ name: 'Speak and check', description: 'Say the word on the screen and check your spelling', img: '../img/Group.png' },
+		{ name: 'Check the correct one', description: 'Say the word on the screen and check your spelling', img: '../img/Group2.png' },
+		{ name: 'Check it', description: 'See the word abc at the screen and check your word writing', img: '../img/Group3.png' }
 	];
 
 	const [library, setLibrary] = useState([]);

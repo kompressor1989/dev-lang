@@ -1,7 +1,6 @@
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { MainContext } from "../Main";
-// import Group from './img/Group.png'
 
 function Games() {
 	const {libraryGames} = useContext(MainContext);
@@ -14,9 +13,13 @@ function Games() {
 						return (
 							<li key={index} className="games__item">
 								<Link to={`/games/${index+1}/`}>
-									<h3>{item.name}</h3>
-									<p>{item.description}</p>
-									<img src={item.img} alt="img of game"/>
+									<div className="games__item_two">
+										<h3>{item.name}</h3>
+										<p>{item.description}</p>
+									</div>
+									<div className="games__item_one">
+										<img src={item.img} alt="img of game"/>
+									</div>
 								</Link>
 							</li>
 						);
