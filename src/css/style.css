@@ -43,7 +43,9 @@ nav li a:hover {
     font-weight: bold;
     border-bottom: 3px solid white;
     font-weight: bold;
+    color: white;
 }
+
 .home__page {
     padding: 80px;
 }
@@ -107,16 +109,48 @@ nav li a:hover {
     display: flex;
 }
 
+.library {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.library__title {
+    margin-top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;  
+}
+
+.input__word {
+    background: #E9EBF1;
+    box-shadow: inset -4px -4px 4px rgba(255, 255, 255, 0.18), inset 2px 2px 4px rgba(0, 0, 0, 0.24), inset -8px -8px 15px rgba(255, 255, 255, 0.02), inset 8px 8px 15px rgba(10, 46, 82, 0.21);
+    border-radius: 15px;
+    text-align: center;
+    height: 38px;
+    font-size: 18px;
+}
+
+.btn-success {
+    margin-left: 20px;
+    border-radius: 15px;
+}
 .library__list {
     width: 50%;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
+    border-radius: 10px;
     padding: 20px;
     margin: 20px;
+    box-shadow: 0 0 10px 5px rgb(83, 79, 79)
 }
 
 .library__row {
- display: flex;
- gap: 10px;
+    display: flex;
+    gap: 10px;
 }
 
 .library__row.head {
@@ -130,11 +164,15 @@ nav li a:hover {
 
 .library__col {
     flex: 100%;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
 }
 
 .library__item {
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
     position: relative;
 }
 
@@ -210,4 +248,34 @@ nav li a:hover {
 
 .games__item_two p:hover, .games__item_two h3:hover {
     color: #0A2E52;
+}
+
+.learn {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.learn__word, .learn__translate {
+    padding: 20px 40px 20px 40px;
+    font-size: 24px;
+    font-weight: 800;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 5px rgb(83, 79, 79)
+}
+
+.btn-info {
+    background: #10b5aa;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 1),
+-23px 0 20px -23px rgba(0, 0, 0, .8),
+23px 0 20px -23px rgba(0, 0, 0, .8),
+0 0 40px rgba(0, 0, 0, .1) inset;
+}
+
+.btn-info:hover {
+    color: white;
 }
