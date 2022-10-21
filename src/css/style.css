@@ -232,8 +232,8 @@ nav li a:hover {
 
 .games__item_two {
     display: flex;
-   flex-direction: column;
-   justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .games__item_two p {
@@ -279,3 +279,86 @@ nav li a:hover {
 .btn-info:hover {
     color: white;
 }
+
+.errors, .correct, .points {
+    border-radius: 10px;
+    box-shadow: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    
+}
+
+.errors {
+    background: red;
+}
+
+.correct {
+    background: green;
+}
+
+.points {
+    background-color: #1AB9E1;
+}
+
+.game__header_info {
+    text-align: center;
+}
+
+.game__content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.game__content h3 {
+    font-size: 30px;
+    color: #124E82;
+    font-weight: bold;
+}
+
+.game__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+
+.learn__translate {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.btn__voice {
+    margin-bottom: 20px;
+}
+
+.btn__back {
+    margin-left: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.game__header {
+    margin-top: 20px;
+}
+
+.current__word {
+    padding: 20px;
+}
+
+.btn__current {
+    padding: 10px 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.btn__current:hover {
+    color: black;
+    background: grey;
+    border: 2px solid grey;
+}
+
+    
