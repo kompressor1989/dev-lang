@@ -101,7 +101,7 @@ function Game3(props) {
 	return (
 		<>
 			<div>{resultWordChars.map((char, index) => {
-				return <button className='badge text-bg-info' key={index}>{char}</button>
+				return <button className='badge text-bg-info btn__info' key={index}>{char}</button>
 			})}</div>
 			<div className='current__word'>{currentWordChars.map((char, index) => {
 				return <button className='btn__current' onClick={add} key={index}>{char}</button>

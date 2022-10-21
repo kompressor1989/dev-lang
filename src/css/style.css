@@ -361,4 +361,11 @@ nav li a:hover {
     border: 2px solid grey;
 }
 
+.badge {
+    font-size: 21px;
+}
+
+.badge:hover {
+    cursor: default;
+}
     
